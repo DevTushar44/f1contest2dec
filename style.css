@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+    background-color: #000;
+    color:  #FCAF02;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #FCAF02;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+  color: #000;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-family: 
+    Montserrat;
+    
+}
+
+.intro {
+  background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    text-emphasis-color: white;
+}
+
+.intro-left {
+    max-width: 50%;
+    
+}
+
+.intro-left h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.intro-left p {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.login-btn {
+background-color: #FCAF02; /* Brown color for the button */
+    color: #000; /* Black text color */
+    padding: 10px 30px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 32px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    display: inline-block; /* Inline block to match the size */
+    text-align: center; /* Center the text */
+
+}
+
+.intro-right img {
+   /* width: 300px;
+    height: auto; */
+
+    width: 697px;
+height: auto;
+top: 173px;
+left: 1678px;
+gap: 0px;
+opacity: 0px;
+angle: -180 deg;
+
+}
+
+.contact-us {
+    padding: 50px;
+    background-color: #000;
+}
+
+.contact-us h2 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.contact-us form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-us input,
+.contact-us button {
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #FFD700;
+    background-color: #1C1C1C;
+    color: #FFD700;
+}
+
+.contact-us input:focus {
+    outline: none;
+}
+
+.contact-us button {
+    background-color: #FCAF02; /* Brown color for the button */
+    color: #000; /* Black text color */
+    padding: 10px 30px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 32px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    display: inline-block; /* Inline block to match the size */
+    text-align: center; /* Center the text */
+}
+
+.table-section {
+    padding: 50px;
+    background-color: #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color:  #FCAF02;
+    font-family: Montserrat;
+    ;
+}
+
+table, th, td {
+    border: 1px solid #FCAF02;
+    padding: 28px;
+    text-align: left;
+    font-size: 28px;
+    font-weight:lighter;
+}
+
+tfoot {
+    background-color: #FCAF02;
+    color: #000;
+}
